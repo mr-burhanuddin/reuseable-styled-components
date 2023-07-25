@@ -1,0 +1,109 @@
+:root {
+  --primary-color: #007bff;
+  --text-color: #ffffff;
+  --border-color: #ccc;
+  --card-bg-color: #f9f9f9;
+  --navbar-bg-color: #a1ccd1;
+  --navbar-text-color: #0b666a;
+  --toggle-bg-color: #ccc;
+  --toggle-slider-color: #fff;
+  --modal-bg-color: #fff;
+  --card-text-color: #075b5f;
+  --modal-text-color: #0b666a;
+  --custombtn-bg-color: #aed8cc;
+  --custombtn-text-color: #ffffff;
+  --font-color: #000;
+  --app-bg-color: #fff;
+  --active-border-color: #40f5ff;
+  --box-shadow-color: rgba(0, 0, 0, 0.5);
+  --alert-color-success: #21c900;
+  --alert-color-error: #df2e38;
+  --alert-color-warning: #44d7ff;
+  --badge-color-success: #21c900;
+  --badge-color-error: #df2e38;
+  --badge-color-warning: #44d7ff;
+}
+
+[theme-type="dark"] {
+  --primary-color: #002b58;
+  --text-color: #ffffff;
+  --border-color: #98caff;
+  --card-bg-color: #2c3333;
+  --navbar-bg-color: #354647;
+  --navbar-text-color: #ffffff;
+  --toggle-bg-color: #ccc;
+  --toggle-slider-color: #fff;
+  --modal-bg-color: #2c3333;
+  --card-text-color: #b8b8b8;
+  --modal-text-color: #cfcfcf;
+  --custombtn-bg-color: #354647;
+  --custombtn-text-color: #ffffff;
+  --font-color: #fff;
+  --app-bg-color: #2c3333;
+  --active-border-color: #40f5ff;
+  --box-shadow-color: rgba(255, 255, 255, 0.5);
+}
+[theme-type="light"] {
+  --primary-color: #007bff;
+  --text-color: #ffffff;
+  --border-color: #ccc;
+  --card-bg-color: #f9f9f9;
+  --navbar-bg-color: #a1ccd1;
+  --navbar-text-color: #0b666a;
+  --toggle-bg-color: #ccc;
+  --toggle-slider-color: #fff;
+  --modal-bg-color: #fff;
+  --card-text-color: #0b666a;
+  --modal-text-color: #0b666a;
+  --custombtn-bg-color: #aed8cc;
+  --custombtn-text-color: #ffffff;
+  --font-color: #000;
+  --app-bg-color: #fff;
+  --active-border-color: #40f5ff;
+  --box-shadow-color: rgba(0, 0, 0, 0.5);
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  font-family: Poppins, sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 1;
+  background-color: var(--app-bg-color);
+  color: var(--font-color);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  font-size: bolder;
+  cursor: pointer;
+}
+
+.navbarmenu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0;
+  margin: 0;
+}
+
+.navbarmenu > li {
+  cursor: pointer;
+  padding: 0.25rem;
+  font-weight: bold;
+}
